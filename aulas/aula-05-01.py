@@ -29,3 +29,9 @@ progs[3]='Metalica'
 
 print(progs[0])
 print(progs[1])
+
+for i in range(len(progs)):
+    print(progs[i])
+    
+for progs in progs:
+    print(progs)    
