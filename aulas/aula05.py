@@ -24,5 +24,8 @@ print(len(nome))
 
 progs=['Yes','Genesis','Pink Floyd','ELP']
 
+progs[3]='Metalica'
+#progs[5]='Mew'
+
 print(progs[0])
 print(progs[1])
