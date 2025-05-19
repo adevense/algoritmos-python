@@ -1,5 +1,5 @@
 import speech_recognition  as sr
-
+import pyttsx3
 #print(sr.Microphone.list_microphone_names())
 
 rec = sr.Recognizer()
@@ -11,4 +11,6 @@ with sr.Microphone(4) as mic:
     print("Você disse:", texto)
     texto = texto.lower()
     if texto == "bom dia":
-        print("Olá, bem vindo")
+        engine = pyttsx3.init()
+        engine.say("Olá, bem vindo")
+        engine.runAndWait()
