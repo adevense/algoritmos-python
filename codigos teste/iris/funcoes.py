@@ -66,7 +66,7 @@ def pesquisar_wikipedia(comando):
         engine.say(f'Pesquisando por {comando} na Wikipedia')
         engine.runAndWait()
         wikipedia.set_lang('pt')
-        # Limita a pesquisa a uma frase
+        # Limita a pesquisa a duas linhas
         resultado = wikipedia.summary(comando,2)
         engine.say(resultado)
         engine.runAndWait()
