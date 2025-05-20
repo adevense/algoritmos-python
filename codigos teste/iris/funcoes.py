@@ -28,6 +28,26 @@ def reconhece_fala():
         return None
     return comando
 
+
+def ligar():
+    engine.say('Olá, eu sou a Iris, sua assistente virtual. Como posso ajudar?')
+    engine.runAndWait()
+    print("Olá, eu sou a Iris, sua assistente virtual. Como posso ajudar?")
+    while True:
+        comando = reconhece_fala()
+        if comando is not None:
+            print(f"Comando recebido: {comando}")
+            if 'encerrar' in comando or 'sair' in comando or 'desligar' in comando:
+                break
+            elif 'horas' in comando or 'hora' in comando or 'que horas são' in comando or 'que horas são agora' in comando:
+                ver_horas()
+            elif 'data' in comando or 'dia' in comando or 'hoje' in comando  or 'hoje é' in comando : 
+                ver_data()
+            elif 'procure por' in comando or 'pesquise por' in comando  or 'pesquisar por' in comando:
+                pesquisar_wikipedia(comando)
+            elif 'tocar' in comando or 'toca' in comando or 'tocar música' in comando or 'toca música' in comando:
+                musica_youtube(comando)       
+       
        
 def ver_horas():
     horas = datetime.datetime.now().strftime('%H:%M')
