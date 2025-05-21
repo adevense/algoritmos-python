@@ -3,6 +3,11 @@ import datetime
 import pyttsx3
 import wikipedia
 import pywhatkit
+import json
+import os
+
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+caminho_config = os.path.join(diretorio_atual, 'config.json')
 
 rec = sr.Recognizer() # É bom inicializar o Recognizer fora da função para não recriá-lo a cada chamada
 engine = pyttsx3.init()
@@ -11,7 +16,10 @@ engine = pyttsx3.init()
 def reconhece_fala():
     comando = None   # Inicializa 'comando' com um valor padrão (None)
     try:
-        with sr.Microphone(device_index=4) as mic: # Especifique o device_index corretamente
+        with open(caminho_config, 'r', encoding='utf-8') as arquivo_json:
+            dados = json.load(arquivo_json)
+            microfone_index_escolhido = dados['configuracao']['microfone']
+        with sr.Microphone(device_index=microfone_index_escolhido) as mic: 
             print("ouvindo...")
             rec.adjust_for_ambient_noise(mic) # Ajusta o ruído ambiente para melhor reconhecimento
             audio = rec.listen(mic)
@@ -24,15 +32,14 @@ def reconhece_fala():
                 comando = ''
                
     except:
-        print("Ocorreu um erro inesperado")
+        print("não ouvi nada")
         return None
     return comando
 
 
 def ligar():
-    engine.say('Olá, eu sou a Iris, sua assistente virtual. Como posso ajudar?')
+    engine.say('Olá, eu sou a Iris. Como posso ajudar?')
     engine.runAndWait()
-    print("Olá, eu sou a Iris, sua assistente virtual. Como posso ajudar?")
     while True:
         comando = reconhece_fala()
         if comando is not None:
@@ -45,7 +52,7 @@ def ligar():
                 ver_data()
             elif 'procure por' in comando or 'pesquise por' in comando  or 'pesquisar por' in comando:
                 pesquisar_wikipedia(comando)
-            elif 'tocar' in comando or 'toca' in comando or 'tocar música' in comando or 'toca música' in comando:
+            elif 'tocar' in comando or 'toca' in comando or 'tocar música' in comando or 'toca música' in comando or 'toque música' in comando or 'toque' in comando:
                 musica_youtube(comando)       
        
        
@@ -72,8 +79,8 @@ def pesquisar_wikipedia(comando):
         engine.runAndWait()
         
 def musica_youtube(comando):
-    if 'tocar' in comando or 'toca' in comando or 'tocar música' in comando or 'toca música' in comando:
-        comando = comando.replace('tocar', '').replace('toca', '').replace('tocar música', '').replace('toca música', '').strip()
+    if 'tocar' in comando or 'toca' in comando or 'tocar música' in comando or 'toca música' in comando  or 'toque música' in comando or 'toque' in comando:
+        comando = comando.replace('tocar', '').replace('toca', '').replace('tocar música', '').replace('toca música', '').replace('toque música','').replace('toque','').strip()
         engine.say(f'Tocando {comando} no YouTube')
         engine.runAndWait()
         pywhatkit.playonyt(comando)
