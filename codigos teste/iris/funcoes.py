@@ -37,7 +37,7 @@ def reconhece_fala():
     return comando
 
 
-def ligar():
+def ligar(comando):
     engine.say('Olá, eu sou a Iris. Como posso ajudar?')
     engine.runAndWait()
     while True:

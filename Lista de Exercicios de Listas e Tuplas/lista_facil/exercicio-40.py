@@ -1,5 +1,5 @@
 '''
-Implemente uma fun¸c˜ao que conte quantas vezes um valor aparece em uma lista.
+Implemente uma funcao que conte quantas vezes um valor aparece em uma lista.
 '''
 
 def contar_ocorrencias(lista, valor):

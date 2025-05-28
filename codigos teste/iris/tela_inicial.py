@@ -14,7 +14,7 @@ class tela_inicial_classe():
         self.botao_iniciar = Button(self.master, text="Iniciar Iris", command=lambda: ligar())
         self.botao_iniciar.pack(pady=10)
 
-        # NOVO BOTÃO: Para abrir a tela de seleção de microfone
+        # Botão para abrir a tela de seleção de microfone
         self.botao_config_mic = Button(self.master, text="Configurar Microfone", command=self.abrir_tela_mic)
         self.botao_config_mic.pack(pady=5) # Padding menor para diferenciar
 

@@ -4,11 +4,6 @@ inversa.
 '''
 
 def lista_inversa(lista):
-    """
-    Retorna os elementos de uma lista na ordem inversa.
-    :param lista: Lista a ser invertida
-    :return: Lista com os elementos na ordem inversa
-    """
     return lista[::-1]
 # Testando a funcao
 lista = [1, 2, 3, 4, 5]
