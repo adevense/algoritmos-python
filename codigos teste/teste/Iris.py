@@ -3,7 +3,7 @@ import speech_recognition as sr
 # Inicializa o reconhecedor
 rec = sr.Recognizer()
 
-# Use o microfone com o índice especificado (substitua 1 pelo índice correto)
+# Use o microfone com o índice especificado (substitua 1 pelo índice correto).
 try:
    
     with sr.Microphone(4) as mic:
@@ -22,4 +22,4 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print(f"Erro ao acessar o serviço de reconhecimento de voz: {e}")
 except OSError as e:
-    print(f"Erro ao acessar o microfone com índice 1: {e}")
+    print(f"Erro ao acessar o microfone com índice 1: {e}") 
