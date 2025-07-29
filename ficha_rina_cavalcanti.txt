@@ -1,0 +1,71 @@
+
+============================================================
+              FICHA DE ORDEM PARANORMAL
+============================================================
+
+--- INFORMAÇÕES BÁSICAS ---
+Nome: Rina Cavalcanti
+Gênero: Feminino
+Idade: 29 anos
+Altura: 1.74 m
+Nacionalidade: Japones
+Origem: Trabalhador Rural
+Patente: Agente Especial (NEX 50%)
+
+--- CLASSE E TRILHA ---
+Classe: **Ocultista**
+Trilha: **Lâmina Paranormal**
+
+--- ATRIBUTOS ---
+Força: 1
+Agilidade: 1
+Intelecto: 2
+Vigor: 4
+Presença: 1
+
+--- PERÍCIAS ---
+Acrobacia: 1       | Adestramento: 6    | Artes: 1          
+Atletismo: 6       | Atualidades: 2     | Ciências: 2       
+Crime: 1           | Diplomacia: 6      | Enganação: 1      
+Fortitude: 4       | Furtividade: 1     | Iniciativa: 1     
+Intimidação: 1     | Intuição: 6        | Investigação: 2   
+Luta: 1            | Medicina: 2        | Ocultismo: 7      
+Percepção: 1       | Pilotagem: 1       | Pontaria: 1       
+Profissão: 2       | Reflexos: 1        | Religião: 1       
+Sobrevivência: 7   | Tecnologia: 2      | Tática: 2         
+Vontade: 6        
+
+--- HABILIDADES DE TRILHA ---
+- **Ataque Sombrio** (NEX 10%): Ao atacar com uma arma corpo a corpo, você pode gastar 1 PE para adicionar +1d4 de dano paranormal (do seu elemento de afinidade).
+- **Convicção Paranormal** (NEX 40%): Você recebe +2 na Defesa contra ataques de criaturas paranormais.
+
+--- ELEMENTO DE AFINIDADE ---
+**Morte**
+
+--- RITUAIS (Ocultista) ---
+- **Eletrocussão**: Custo: 1 PE. Alvo único. O alvo sofre 1d6 de dano de Energia e fica desprevenido (–2 na Defesa) por 1 rodada. Discente: 3 PE. O dano aumenta para 2d6 e o alvo fica desprevenido por 1d4 rodadas. Verdadeiro: 5 PE. O dano aumenta para 3d6 e o alvo fica desprevenido por 1d6 rodadas.
+- **Decadência**: Custo: 1 PE. Alvo único. O alvo sofre 1d6 de dano de Morte e fica fraco (–2 em testes de Força e Vigor) por 1 rodada. Discente: 3 PE. O dano aumenta para 2d6 e o alvo fica fraco por 1d4 rodadas. Verdadeiro: 5 PE. O dano aumenta para 3d6 e o alvo fica fraco por 1d6 rodadas.
+- **Definhar**: Custo: 2 PE. Alvo único. O alvo sofre 1d6 de dano de Morte por rodada e não pode se curar por 1d4 rodadas. Discente: 4 PE. O dano aumenta para 2d6 por rodada e o efeito dura 1d6 rodadas. Verdadeiro: 6 PE. O dano aumenta para 3d6 por rodada e o efeito dura 1d8 rodadas.
+- **Ódio Incontrolável**: Custo: 2 PE. Alvo único. O alvo deve fazer um teste de Vontade. Se falhar, é tomado pelo ódio e ataca a criatura mais próxima (incluindo aliados) por 1 rodada. Discente: 4 PE. O efeito dura 1d4 rodadas. Verdadeiro: 6 PE. O efeito dura 1d6 rodadas.
+
+--- ITENS ---
+- Adaga
+- Alabarda
+- Binóculos Militares
+- Fuzil de Assalto (5.56mm)
+- Ganzuas de Titânio
+- Olho de Corvo mumificado
+- Revólver (.38)
+- Sangue Coagulado (Frasco)
+
+--- DESCRIÇÕES ---
+Descrição Física                    | Personalidade                       | História Breve                     
+----------------------------------- | ----------------------------------- | -----------------------------------
+Uma mulher de semblante expressivo, | Um tanto cético(a) e desconfiado(a) | Um(a) ex-universitário(a) que se de
+ com um sorriso acolhedor e olhos v | , especialmente em relação ao paran | parou com o Outro Lado após uma pes
+ibrantes. Seus cabelos castanhos sã | ormal. Precisa de provas concretas  | quisa acadêmica mal sucedida. Agora
+o volumosos e cheios de vida. Sua v | para acreditar, o que o(a) torna um |  busca respostas e vingança.       
+oz é suave, mas firme.              | (a) bom(boa) investigador(a). É res |                                    
+                                    | ervado(a).                          |                                    
+
+============================================================
