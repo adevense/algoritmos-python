@@ -1,0 +1,50 @@
+{
+    "Sora": {
+        "pontuacao_total": 2,
+        "historico": [
+            {
+                "nome_ponto": "Asuna",
+                "valor_ponto": 1
+            },
+            {
+                "nome_ponto": "Charmy",
+                "valor_ponto": 1
+            }
+        ]
+    },
+    "Asgore": {
+        "pontuacao_total": 1.33,
+        "historico": [
+            {
+                "nome_ponto": "Boa",
+                "valor_ponto": 1
+            },
+            {
+                "nome_ponto": "Diane",
+                "valor_ponto": 0.33
+            }
+        ]
+    },
+    "Roberto": {
+        "pontuacao_total": 0,
+        "historico": []
+    },
+    "Robocopgay": {
+        "pontuacao_total": 0.33,
+        "historico": [
+            {
+                "nome_ponto": "Diane",
+                "valor_ponto": 0.33
+            }
+        ]
+    },
+    "Marcos": {
+        "pontuacao_total": 0.33,
+        "historico": [
+            {
+                "nome_ponto": "Diane",
+                "valor_ponto": 0.33
+            }
+        ]
+    }
+}
